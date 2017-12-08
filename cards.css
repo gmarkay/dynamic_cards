@@ -1,0 +1,20 @@
+.card {
+  /* width: 50px; */
+  background: slategray;
+  width: 16em;
+  height: 16em;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+.btn{
+  margin: 35% 26%;
+  background: black;
+  color: red;
+  width: 11em;
+  height: 7em;
+}
+
+.new {
+  background: pink;
+}
