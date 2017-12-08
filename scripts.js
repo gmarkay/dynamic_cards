@@ -1,4 +1,3 @@
-// let btns = document.querySelectorAll(".btn");
 
 document.getElementById('create').addEventListener('click', function(){
   let card = document.createElement("div");
@@ -15,14 +14,11 @@ document.getElementById('create').addEventListener('click', function(){
   document.getElementById('output').appendChild(card);
 
   let btns = document.querySelectorAll(".btn");
-  console.log(btns);
   for(let i=0; i<btns.length; i++){
         let btn = btns[i];    
-        console.log(btn, 'btns');
         btn.addEventListener('click', function(){ 
-            // console.log(event.Target.par, 'asdasdsa');
             event.currentTarget.parentNode.remove();
-        })    
+        }); 
       }
   
 });
